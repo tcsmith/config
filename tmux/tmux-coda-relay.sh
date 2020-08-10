@@ -8,7 +8,6 @@ then
     tmux send-keys 'cd src/projects/tsmith_balw-tsmith3_firaxislive/FiraxisLive/Development/Services/coda-relay' Enter
     tmux split-window -v
     tmux send-keys 'cd src/projects/tsmith_balw-tsmith3_firaxislive/FiraxisLive/Development/Services/coda-relay' Enter
-    tmux split-window -h htop
 fi
 
 tmux attach -t $SESSIONNAME
