@@ -15,6 +15,7 @@ if v:progname =~? "evim"
 endif
 
 if has("gui_running")
+    colorscheme evening
 else
     set background=dark
 endif
